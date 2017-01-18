@@ -42,9 +42,13 @@ $(document).ready(function(){
  function calculate () {
   alert("うわっ！ビックリしたよ。");
 
- var input1 = $( "#input1" ).val();
- var  input2 = $( "#input2" ).val();
- var result = input1 + input2;
+  var input1 = $( "#input1" ).val();
+  var input2 = $( "#input2" ).val();
+  var result = "";
+  
+  result = input1 + input2;
+  result = Number( input1 ) + Number( input2 );
+
   var html = "<h2>" + input1 + "足す" + input2 + "は、" + result + "</h2>";
   $( "#result" ).append( html );  
  }
