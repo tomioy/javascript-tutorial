@@ -38,8 +38,14 @@ $(document).ready(function(){
  $("#content").append("<h2>aaaaaaaaaa</h2>");
 });
 
+ // かんすう　ボタンを押すとよばれる
  function calculate () {
   alert("うわっ！ビックリしたよ。");
+
+ input1 = $( "#input1" ).val();
+  input2 = $( "#input2" ).val();
+ result = input1 + input2;
+  $( "#result" ).append( input1 + "足す" + input2 + "は、" + result );  
  }
  
  
