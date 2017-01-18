@@ -10,11 +10,10 @@
  Hellow World !
 </h1>
 
- にゅうりょく１<input type="text" name="inp1">
- にゅうりょく２<input type="text" name="inp2">
+ にゅうりょく１<input type="text" id="input1"> <br />
+ にゅうりょく２<input type="text" id="input2"> <br />
  <br />
- <br />
- <button type="submit">けいさん</button>
+ <button script="calculate">けいさん</button>
 
  <div id="content">
 </div>
@@ -25,6 +24,8 @@
 // ★れんしゅうのまえに★
 // 上にかいてある Hello World ! を、じぶんの、すきな文字にかえてみよう
 // そのあと、Commit changes の下に、メモをかいて、緑の「Commit changes」ボタンを押して、ほぞんしよう。
+// ウェブページをひらくと、いれた文字がひょうじされるよ。
+
  
 // ★れんしゅう１★
 
@@ -37,8 +38,9 @@ $(document).ready(function(){
  $("#content").append("<h2>aaaaaaaaaa</h2>");
 });
 
- 
- 
+ function calculate () {
+  alert("うわっ！ビックリしたよ。");
+ }
  
  
  
