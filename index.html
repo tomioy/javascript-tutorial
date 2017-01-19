@@ -42,14 +42,13 @@ $(document).ready(function(){
  function calculate () {
   //alert("うわっ！ビックリしたよ。");
 
-  var input1 = $( "#input1" ).val();
-  var input2 = $( "#input2" ).val();
-  var result = "";
+  var text1 = $( "#input1" ).val();
+  var text2 = $( "#input2" ).val();
+  var result = text1 + text2;
   
-  result = input1 + input2;
-  result = Number( input1 ) + Number( input2 );
-
-  var html = "<h2>" + input1 + " たす " + input2 + " は・・・ " + result + "</h2>";
+  result = Number( text1 ) * Number( text2 );  
+  
+  var html = "<h2>" + text1 + "  と " + text2 + " で・・・うん " + result + "</h2>";
   $( "#result" ).append( html );  
  }
  
