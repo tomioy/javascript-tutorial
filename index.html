@@ -46,9 +46,9 @@ $(document).ready(function(){
   var text2 = $( "#input2" ).val();
   var result = text1 + text2;
   
-  result = Number( text1 ) * Number( text2 );  
+  // result = Number( text1 ) * Number( text2 );  
   
-  var html = "<h2>" + text1 + "  と " + text2 + " で・・・うん " + result + "</h2>";
+  var html = "<h2>「" + text1 + "」と「" + text2 + "」で・・・うん「" + result + "」</h2>";
   $( "#result" ).append( html );  
  }
  
