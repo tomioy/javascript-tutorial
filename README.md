@@ -1,6 +1,6 @@
 # javascript-tutorial
-JavaScript Tutorial under development
+あなたのホームページは、JavaScript Tutorial 
 
 Demo
-https://programjp.github.io/javascript-tutorial/
+https://koichii.github.io/javascript-tutorial/
 
