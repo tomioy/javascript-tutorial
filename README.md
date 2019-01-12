@@ -2,7 +2,7 @@
 あなたのホームページは、JavaScript Tutorial 
 
 Demo
-https://koichii.github.io/javascript-tutorial/
+https://tomioy.github.io/javascript-tutorial/
 
 あああああああああああああああああああ
 いいいいいいいいいいいいいいいいい
