@@ -1,2 +1,8 @@
 # javascript-tutorial
-JavaScript Tutorial under development
+あなたのホームページは、JavaScript Tutorial 
+
+Demo
+https://tomioy.github.io/javascript-tutorial/
+
+あああああああああああああああああああ
+いいいいいいいいいいいいいいいいい
